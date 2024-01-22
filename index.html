@@ -8,12 +8,17 @@
     <title>unsplash-demo</title>
 </head>
 <body>
+    <h1> This is the screen reader text</h1>
+    <p class="red"> I was going to do the weird latin text, but I might as well write something I can kind of understand</p>
+    
     <form id="form">
-        <input type = "text" placeholder="what do you want to search" id="input">
+        <input type = "text" placeholder="what do you want to search" id="input" name = "input">
         <button type = "submit"> search</button>
     </form>
     <div id = "img-container">
 
     </div>
+    <button id="randomize-button"> Randomize image!</button>
+    <div id="announcer" aria-live="polite" aria-atomic="true"></div>
 </body>
 </html>
